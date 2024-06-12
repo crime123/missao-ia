@@ -60,6 +60,17 @@ function mostraAlternativas() {
         botaoAlternativas.textContent = alternativa;
         caixaAlternativas.appendChild(botaoAlternativas);
     }
-}
+function mostraAlternativas(){
+    for(const alternativa of perguntaAtual.alternativas){
+            const botaoAlternativas = document.createElement("button");
+            botaoAlternativas.textContent = alternativa.texto;
+            botaoAlternativas.addEventListener("click",() => respostasSelecionada(alternativa));
+            caixaAlternativas.appendChild(botaoAlternativas);
+           
+       function respostaSelecionada(opcaoSelecionada) {
+    const afirmacoes = opcaoSelecionada.afirmacao;
+    historia += afirmacoes + "";
+    atual++;
+    Let historia final = "";
 
-mostraPergunta();
+
