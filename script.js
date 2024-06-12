@@ -39,8 +39,8 @@ const perguntas = [
     {
         enunciado: "qual foi o primeiro rodeio do brasil?",
         alternativas: [
-           "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-            "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial."
+           "colorado.",
+            "barretos."
         ]
     },
 ];
