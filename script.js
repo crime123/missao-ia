@@ -6,29 +6,29 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        // enunciado: "assim que acabou o mundial, qual foi o brasileiro que foi o capeao muldia do rodeio PBR?",
-        alternativas: [
+        // texto: "assim que acabou o mundial, qual foi o brasileiro que foi o capeao muldia do rodeio PBR?",
+        afirmação: [
             "Cassios dias barbosa!",
             "Jose vitor lemes!"
         ]
     },
     {
-        enunciado: " qual e o maior campenato brasileiro entre esses dois?"
-        alternativas: [
+        texto: " qual e o maior campenato brasileiro entre esses dois?"
+        afirmação: [
             "ekipe rozeta",
             "circuito rancho primavera",
         ]
     },
     {
-        enunciado: "qual o maior rodeio brasileiro?",
-        alternativas: [
+        texto: "qual o maior rodeio brasileiro?",
+        afirmação: [
             "barretos",
             "jaguariuna"
         ]
     },
     {
-        enunciado: "quem foi o atual campeao de barretos no ano 2023?",
-        alternativas: [
+        texto: "quem foi o atual campeao de barretos no ano 2023?",
+        afirmação: [
             "
             
            "warley oliveira"
@@ -37,8 +37,8 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "qual foi o primeiro rodeio do brasil?",
-        alternativas: [
+        texto: "qual foi o primeiro rodeio do brasil?",
+        afirmação: [
            "colorado.",
             "barretos."
         ]
