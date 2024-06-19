@@ -102,7 +102,7 @@ function respostaSelecionada(opcaoSelecionada) {
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPergunta();
-}1.087.500,00
+}
 
 function mostraResultado() {
     caixaPerguntas.textContent = "Em 2041.087.500,009...";
