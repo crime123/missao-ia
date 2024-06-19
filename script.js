@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "barretos",
-                afirmacao: "afirmação"
+                afirmacao: "e o primeiro rodeio ja feito no brisil "
             },
             {
-                texto: "colorado",
-                afirmacao: "afirmação"
+                texto: "americana",
+                afirmacao: "é o segundo maior rodeio do Brasil"
             }
         ]
     },
@@ -23,24 +23,24 @@ const perguntas = [
         alternativas: [
             {
                 texto: "PBR.",
-                afirmacao: "afirmação"
+                afirmacao: "é o principal circuito de rodeio do mundo"
             },
             {
                 texto: "Circuito Rancho Primavera.",
-                afirmacao: "afirmação"
+                afirmacao: "o mais famoso do brasil "
             }
         ]
     },
     {
-        enunciado: "Qual brasileiro ganhou campeão mundial?",
+        enunciado: "Qual brasileiro ganhou campeão mundial 2024?",
         alternativas: [
             {
                 texto: "cassio Dias.",
-                afirmacao: "afirmação"
+                afirmacao: "ele foi o campeão  mundial desta uma temporada"
             },
             {
                 texto: "Jose Vitor Lemes.",
-                afirmacao: "afirmação"
+                afirmacao: "ele foi campeão mundial na temporada de 2020 e 2021"
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "1 milhão.",
-                afirmacao: "afirmação"
+                afirmacao: "dessa temporada foi dado 1 milão de dolares "
             },
             {
-                texto: "2 milhões.",
-                afirmacao: "afirmação"
+                texto: "cassio dias .",
+                afirmacao: "ele foi o ultimo capeão mundial mundial"
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "touro acesso negado.",
-                afirmacao: "afirmação"
+                afirmacao: "1.087.500,00 foi o preço dele"
             },
             {
                 texto: "touro bandido.",
-                afirmacao: "afirmação"
+                afirmacao: "na época o touro bandido foi avaliado em 800.000"
                   }
         ]
     },
@@ -102,10 +102,10 @@ function respostaSelecionada(opcaoSelecionada) {
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPergunta();
-}
+}1.087.500,00
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Em 2041.087.500,009...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
